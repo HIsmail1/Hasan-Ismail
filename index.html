@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hasan Ismail's Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <script src="https://code.jquery.com/jquery-3.4.1.js"></script> -->
+
+        <style type="text/css">
+            .rotateimg90 {
+                box-shadow: 0px -12px 20px -2px rgba(47, 51, 56, 0.8);
+                -webkit-transform:rotate(90deg);
+                -moz-transform: rotate(90deg);
+                -ms-transform: rotate(90deg);
+                -o-transform: rotate(90deg);
+                transform: rotate(90deg);
+            }
+            .textstyle {
+                margin-block-start: 0px;
+                font-family: Helvetica;
+                font-size: 70px;
+                letter-spacing: -7.5px;
+                background: -webkit-linear-gradient(#3d5afb, #020202);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            .headstyle{
+                margin-left: 53px;
+                font-family: Balboa Medium;
+                font-size: 59px;
+                letter-spacing: -5.5px;
+                background: -webkit-linear-gradient(#191717, #382e2e);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            .left {
+                float: left;
+                width: 50%;
+            }
+            .right{
+                float:right;
+                width: 50%;
+            }
+            .container {
+                display: inline-block;
+            }
+            .underline{
+                height: 6px;
+                background: -webkit-linear-gradient(#fff, #020202);
+                -webkit-background-clip: border-box;
+                -webkit-text-fill-color: transparent;
+                width: 340px;
+            }
+            .bor{
+                border: 1px solid #000;
+                margin-top: -50px;
+                height: 6px;
+                width: 340px;
+            }
+
+            .btntext{
+                display: inline;
+                margin-left: 20px;
+                font-size: 30px;
+                font-family: Helvetica;
+                background: -webkit-linear-gradient(#828385, #777575);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                text-shadow: -2px -2px #e8dfa6;    
+                letter-spacing: -2.5px;            
+            }
+            .button{
+                cursor: pointer;
+                width: 30%;
+                margin: 10px;
+                margin-left: 65px;
+                box-shadow: 0px -12px 20px -2px rgba(47, 51, 56, 0.41);
+                display: inline-block;
+                background: -webkit-linear-gradient(#ffbc00, #fff703);
+                padding: 10px 30px;
+            }
+            .arrow{
+                font-size:30px;
+                color: #dedede;
+                text-shadow: 2px 2px #a9a798;
+            }
+            .pages{
+                background: -webkit-linear-gradient(#e3f6f7, #0cd0da);
+                margin-top: 100px;
+                height: 100%;
+            }
+            .back {
+                cursor: pointer;
+                width: 10%;
+                box-shadow: 0px -12px 20px -2px rgba(47, 51, 56, 0.41);
+                display: inline-block;
+                background: -webkit-linear-gradient(#ffbc00, #fff703);
+                padding: 10px 30px;
+            }
+
+            .headtext{
+                font-size: 50px;
+                font-family: Helvetica;
+                background: -webkit-linear-gradient(#f2f8ff, #191919);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                text-shadow: -2px -2px #585853;   
+                letter-spacing: -2.5px;            
+            
+            }
+            p{
+                font-size: 35px;
+                font-family: FANTASY;
+                font-weight: 500;
+                padding: 30px;
+            }
+            .blocks{
+                border: 1px solid #000;
+                background: -webkit-linear-gradient(#cfd1d4, #948e8e);
+                width: 25%;
+                margin: 50px;
+                align-content: center;
+                text-align: center;
+                display: block;
+                cursor: pointer;
+            }
+            .pbtn {
+                cursor: pointer;
+                width: 30%;
+                margin: 10px;
+                margin-left: 65px;
+                box-shadow: 0px -12px 20px -2px rgba(47, 51, 56, 0.41);
+                display: inline-block;
+                -webkit-background-clip: text;
+                background: -webkit-linear-gradient(#7a7b7d, #6b6666);
+                padding: 10px 60px;
+            }
+            .pbtntxt{
+                display: inline;
+                margin-left: 20px;
+                font-size: 30px;
+                font-family: Helvetica;
+                background: -webkit-linear-gradient(#6a6b6b, #312c2c);
+                -webkit-background-clip: text;
+                text-shadow: -2px -2px #545451;
+                letter-spacing: -2.5px;
+                color: #2e3133;
+            }
+            .idimg{
+                margin: 5px 75px;
+                padding: 30px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div class="container" id="home_section">
+            <div class="left">
+                <img 
+                    src="../IMG_1507 (1).jpg" 
+                    width="100%" 
+                    class="rotateimg90"/>
+            </div>
+            <div class="right">
+                <h1 class="textstyle">
+                    Hasan Ismail
+                </h1>
+                <div class="bor">
+                    <div class="underline"></div>
+                </div>
+            
+                <h1 class="headstyle">
+                        UX Designer
+                </h1>
+                
+                <a href="#home_section">
+                    <div class="button">
+                        <i class="fa arrow">&#xf103;</i>
+                        <h3 class="btntext">HOME</h3>
+                    </div>
+                </a>
+
+                <a href="#portfolio_section">
+                    <div class="button">
+                        <i class="fa arrow">&#xf103;</i>
+                        <h3 class="btntext">PORTFOLIO</h3>
+                    </div>
+                </a>
+
+                <a href="#contact_section">
+                    <div class="button">
+                        <i class="fa arrow">&#xf103;</i>
+                        <h3 class="btntext">CONTACT</h3>
+                    </div>
+                </a>
+
+                <a href="#about_section">
+                    <div class="button">
+                        <i class="fa arrow">&#xf103;</i>
+                        <h3 class="btntext">ABOUT ME</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="pages" id="about_section">
+            <a href="#home_section">  
+                <div class="back">
+                    <h3 class="btntext">BACK</h3>
+                </div>
+            </a>
+            <div style="text-align: center">
+                <h1 class="headtext">ABOUT ME</h1>           
+            </div>
+            <p>
+                I am a senior at the University of California San Diego,
+                 currently majoring in Cognitive Science with Human Computer Interaction 
+                 and would like to work as a UX Designer post graduation.
+            </p>
+            <p> 
+                I currently work as a mobile expert with T-mobile.
+                 It has been my job throughout my college years.
+                  However, I also worked and volunteered with multiple tech companies such as Intel and U-Design.
+                   My portfolio is where you will find all of my previous projects. 
+                    
+            </p>
+        </div>
+
+
+        <div class="pages" id="contact_section" style="padding: 0px 0px 130px 0px">
+            <a href="#home_section">  
+                <div class="back">
+                    <h3 class="btntext">BACK</h3>
+                </div>
+            </a>
+
+                <div style="text-align: center">
+                    <h1 class="headtext">CONTACT INFO</h1>           
+                </div>
+                
+                <div style="display: inline-flex;
+                width: 100%;">
+                    <div class="blocks">
+                        <i class="fa fa-map-marker" style="font-size:58px"></i>
+                        <h1 class="headtext">LOCATION</h1>
+                    </div>
+
+                    <div class="blocks">
+                        <i class="fa fa-envelope" style="font-size:48px"></i>
+                        <h1 class="headtext">EMAIL</h1>
+                    </div>
+
+                    <div class="blocks">
+                        <i class="fa fa-mobile" style="font-size:68px"></i>
+                        <h1 class="headtext">PHONE</h1>
+                    </div>
+                    <br><br><br><br>
+                </div>
+        
+        </div>
+
+        
+        <div class="pages" id="portfolio_section">
+            <a href="#home_section">  
+                <div class="back">
+                    <h3 class="btntext">BACK</h3>
+                </div>
+            </a>
+                <div style="text-align: center">
+                    <h1 class="headtext">PORTFOLIO</h1>           
+                </div>
+
+                <div style="display: inline-flex;
+                width: 100%; padding: 10px" >
+                        <img class="idimg" src="t.png" alt="t image" width="200"/>
+                        <img class="idimg" src="u.png" alt="u image" width="200"/>
+                        <img class="idimg" src="i.png" alt="intel image" width="200"/>
+                
+                </div>
+
+
+                <div style="display: inline-flex;    width: 100%;
+                text-align: center;">
+
+                    <div class="pbtn">
+                            <h3 class="pbtntxt">LINKEDIN</h3>
+                    </div>
+
+                    <div class="pbtn">
+                            <h3 class="pbtntxt">RESUME</h3>
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>
